@@ -28,7 +28,7 @@ Traditional NER systems trained on general corpora fail to accurately identify d
 
 ## Proposed Solution
 
-We propose a lightweight, trainable, and explainable NER pipeline:
+Proposed Solution is a lightweight, trainable, and explainable NER pipeline:
 
 - **Dataset**: GENIA JSON-formatted corpus (`sentence`, `entities`)
 - **Model**: BERT-based token classification model trained using HuggingFace `Trainer`
