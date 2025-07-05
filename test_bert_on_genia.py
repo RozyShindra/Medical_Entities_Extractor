@@ -1,8 +1,10 @@
 import streamlit as st
 from transformers import pipeline, AutoTokenizer, AutoModelForTokenClassification
 
+
+
 # Load the trained model and tokenizer
-model_path = "bert-base-uncased"  # Replace with your model path
+model_path = "bert-base-uncased"  
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForTokenClassification.from_pretrained(model_path)
 ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
