@@ -36,5 +36,5 @@ We propose a lightweight, trainable, and explainable NER pipeline:
 - **UI**: Streamlit frontend for interactive input and entity extraction
 - **Confidence Thresholding**: Allows filtering low-confidence predictions
 
-### Folder Structure:
+
 
