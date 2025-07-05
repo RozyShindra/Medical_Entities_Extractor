@@ -4,7 +4,7 @@ This project focuses on building a robust Named Entity Recognition (NER) system 
 
 ---
 
-## 🧠 Background
+## Background
 
 In biomedical research and clinical settings, unstructured text like research papers, patient records, and clinical notes contains rich and critical information. Extracting entities such as proteins, DNA, RNA, and cell types helps in:
 
@@ -16,7 +16,7 @@ NER is equally vital in **legal**, **finance**, and **cybersecurity** domains fo
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 Traditional NER systems trained on general corpora fail to accurately identify domain-specific entities (e.g., "NF-κB", "T-cell") in biomedical texts due to:
 
@@ -26,7 +26,7 @@ Traditional NER systems trained on general corpora fail to accurately identify d
 
 ---
 
-## ✅ Proposed Solution
+## Proposed Solution
 
 We propose a lightweight, trainable, and explainable NER pipeline:
 
