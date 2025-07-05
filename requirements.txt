@@ -1,6 +1,8 @@
-transformers==4.51.0
+transformers
 datasets
 seqeval
 pandas
 streamlit
 torch
+accelerate
+tensorboardX
